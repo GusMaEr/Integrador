@@ -28,8 +28,8 @@
                     exercitationem labore quasi ullam dolore praesentium quos, amet laboriosam voluptate! Quas omnis
                     nobis nihil, culpa sint atque.</p>
                 <div>
-                    <button>Quiero ser orador</button>
-                    <button>Comprar Tickets</button>
+                    <button class="submit">Quiero ser orador</button>
+                    <button class="submit">Comprar Tickets</button>
                 </div>
             </section>
         </div>
@@ -81,9 +81,9 @@
         </div>
     </div>
 
-    <div >
+    <div>
         <table class="fin">
-            <tr >
+            <tr>
                 <td class="tabla_img">
                     <div><img src="Imagenes/hawaii2.jpg" alt="bsas">
                     </div>
@@ -91,15 +91,33 @@
                 <td>
                     <div class="lorem">
                         <h3>BS AS - Octubre</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia autem est tempore dicta animi ratione iure ut dignissimos doloribus esse illo perspiciatis, accusamus quibusdam, omnis quam placeat totam nostrum optio?</p>
-                        <input type="button" value="Conoce mas">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia autem est tempore dicta
+                            animi ratione iure ut dignissimos doloribus esse illo perspiciatis, accusamus quibusdam,
+                            omnis quam placeat totam nostrum optio?</p>
+                        <input class="submit" type="button" value="Conoce mas">
                     </div>
-                    
                 </td>
             </tr>
         </table>
     </div>
-
+    <div>
+        <div>
+            <h3 class="subTitle">Convierte en horador</h3>
+        </div>
+        <div class="postularse">
+            <label for="NOME">Nombre</label>
+            <input type="text" name="Nombre" id="NOME" placeholder="Ingrese Nombre" required>
+            <label for="APE">Apellido</label>
+            <input type="text" name="Apellido" id="APE" placeholder="Ingrese Apellido" required>
+            <br><br>
+            <label for="OBS"></label>
+            <textarea name="Sobre que quieres hablar" id="OBS" cols="55" rows="" placeholder="Sobre que quieres hablar?"
+                required></textarea>
+            <br><br>
+            <input class="submit" type="submit" name="Enviar" size="30px">
+            <br><br>
+        </div>
+    </div>
     <div>
         <footer>
             <div class="menu_pie">
@@ -114,5 +132,4 @@
         </footer>
     </div>
 </body>
-
 </html>
