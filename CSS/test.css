@@ -65,13 +65,13 @@ body {
 /*Parte central de la pagina*/
 .hero_2 {
     height: 90%;
-     /* background-color: blanchedalmond;*/
+    /* background-color: blanchedalmond;*/
 }
 
 .subTitle {
     width: 30%;
     font-size: 20px;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 
 .oradores {
@@ -127,19 +127,23 @@ body {
 }
 
 /*FIN*/
-.fin{
+.fin {
     /*background-color: aquamarine;*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
 }
-.tabla_img{
+
+.tabla_img {
     width: 50rem;
-        
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+
 }
-.fin .lorem{
-    background-color:#474b4e;
+
+.fin .lorem {
+    background-color: #474b4e;
     font-size: 1.5rem;
     margin: 0rem;
     padding: 6rem;
@@ -147,6 +151,7 @@ body {
     text-align: justify;
     color: white;
 }
+
 /*Pie de la pagina*/
 footer {
     color: white;
@@ -155,6 +160,15 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.postularse {
+    padding-left: 35%;
+}
+
+.submit {
+    background-color: rgb(23, 162, 188);
+    color: white;
 }
 
 .menu_pie {
